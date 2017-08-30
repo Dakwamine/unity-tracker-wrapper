@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e900747ef7ea82e499ca53d13530c28f
+timeCreated: 1504048240
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mixpanelPrefab: {fileID: 114413645534678350, guid: 0ca7da3c36da2f94dadbc81c571587d0,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

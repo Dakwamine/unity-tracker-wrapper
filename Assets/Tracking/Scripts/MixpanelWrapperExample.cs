@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Kwanito;
 
 public class MixpanelWrapperExample : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class MixpanelWrapperExample : MonoBehaviour
     void Start()
     {
         // This will track the app launch
-        MixpanelWrapper.AppLaunched();
+        Tracking.Instance.AppLaunched();
     }
 
     private void OnGUI()
@@ -45,7 +46,7 @@ public class MixpanelWrapperExample : MonoBehaviour
             PlayerPrefs.Save();
 
             // We can track the event
-            MixpanelWrapper.GamePlayed(1337, gameCount);
+            Tracking.Instance.GamePlayed(1337, gameCount);
         }
     }
 }

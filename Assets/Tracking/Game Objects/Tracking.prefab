@@ -9,30 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1696661972835686}
+  m_RootGameObject: {fileID: 1271853557356086}
   m_IsPrefabParent: 1
---- !u!1 &1696661972835686
+--- !u!1 &1271853557356086
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4022866746825748}
-  - component: {fileID: 114413645534678350}
+  - component: {fileID: 4137138674740122}
+  - component: {fileID: 114572000628268676}
   m_Layer: 0
-  m_Name: Mixpanel
+  m_Name: Tracking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4022866746825748
+--- !u!4 &4137138674740122
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1696661972835686}
+  m_GameObject: {fileID: 1271853557356086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,19 +40,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114413645534678350
+--- !u!114 &114572000628268676
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1696661972835686}
+  m_GameObject: {fileID: 1271853557356086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 882752fe4382f41c593a64591e77ee24, type: 3}
+  m_Script: {fileID: 11500000, guid: e900747ef7ea82e499ca53d13530c28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  token: 
-  debugToken: 
-  trackInEditor: 1
-  minLogLevel: 3
-  flushInterval: 9
+  currentProvider: 1
+  mixpanelPrefab: {fileID: 114413645534678350, guid: 0ca7da3c36da2f94dadbc81c571587d0,
+    type: 2}
