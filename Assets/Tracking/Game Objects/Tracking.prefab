@@ -51,6 +51,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e900747ef7ea82e499ca53d13530c28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentProvider: 1
-  mixpanelPrefab: {fileID: 114413645534678350, guid: 0ca7da3c36da2f94dadbc81c571587d0,
-    type: 2}
+  activeProviders:
+  - {fileID: 114087858306542420, guid: 0ca7da3c36da2f94dadbc81c571587d0, type: 2}

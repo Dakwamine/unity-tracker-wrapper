@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Kwanito;
+using Dakwamine;
 
 public class MixpanelWrapperExample : MonoBehaviour
 {

@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4022866746825748}
   - component: {fileID: 114413645534678350}
+  - component: {fileID: 114087858306542420}
   m_Layer: 0
   m_Name: Mixpanel
   m_TagString: Untagged
@@ -40,7 +41,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114413645534678350
+--- !u!114 &114087858306542420
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -48,11 +49,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1696661972835686}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147d248d651e9cf47a9f1c326b65bb36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114413645534678350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1696661972835686}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 882752fe4382f41c593a64591e77ee24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   token: 
   debugToken: 
   trackInEditor: 1
-  minLogLevel: 3
+  minLogLevel: 0
   flushInterval: 9
